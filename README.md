@@ -14,6 +14,7 @@ info HTTP <-- POST /wd/hub/session/53848fae-c6f0-480f-b3c0-544b7bb72004/touch/pe
 ```
 
 Failing `webdriver.io` logs:
+```
 [HTTP] --> POST /wd/hub/session/29a084af-4ecc-45de-a2f6-e0be192ba0f9/touch/perform {"actions":{"action":"tap","options":{"element":"AF12A1ED-836E-43DA-B06B-0BAB82E2C1F1"}}}
 [debug] [MJSONWP] Calling AppiumDriver.performTouch() with args: [{"action":"tap","options":{"element":"AF12A1ED-836E-43DA-B06B-0BAB82E2C1F1"}},"29a084af-4ecc-45de-a2f6-e0be192ba0f9"]
 [debug] [XCUITest] Executing command 'performTouch'
@@ -42,3 +43,4 @@ Failing `webdriver.io` logs:
     at tryOnImmediate (timers.js:645:5)
     at processImmediate [as _immediateCallback] (timers.js:617:5)
 [HTTP] <-- POST /wd/hub/session/29a084af-4ecc-45de-a2f6-e0be192ba0f9/touch/perform 500 34 ms - 201
+```
